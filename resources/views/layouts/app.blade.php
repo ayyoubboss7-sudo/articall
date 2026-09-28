@@ -642,8 +642,8 @@
             <a class="logo" href="#accueil">ARTI<span>CALL</span></a>
             <nav aria-label="Menu principal">
                 <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="{{ route('home') }}">Accueil</a></li>
+                    <li><a href="{{ route('services') }}">Services</a></li>
                     <li><a href="#secteurs">Secteurs</a></li>
                     <li><a href="#apropos">À propos</a></li>
                     <li><a href="#faq">FAQ</a></li>
